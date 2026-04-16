@@ -8,4 +8,5 @@ int main() {
     int x, y;
     scanf("%d %d", &x, &y);
 
-    printf(
+    printf("%d\n", *(*(*(p+x)) +y));
+}
